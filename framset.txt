@@ -1,0 +1,29 @@
+<?php
+$page_title = "A Great Website";
+?>
+<html>
+<head>
+<title>A Great Website</title>
+</head>
+
+<body>
+<frameset cols= "*", rows="*, *, *";>
+<frame src="top.php?title=<?php echo $page_title; ?>" />
+<frame src="middle.php?title=<?php echo $page_title; ?>" />
+<frame src="bottom.php?title=<?php echo $page_title; ?>" />
+</frameset>
+</body>
+</html>
+=======================
+
+top.php:
+================
+<html>
+<head>
+<title><?php echo $title; ?></title>
+</head>
+
+<body>
+<p>This is a frame</p>
+</body>
+</html>

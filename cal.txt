@@ -1,0 +1,10 @@
+
+$total per = national_program_rate + spacial_program_rate;
+
+
+$total = total amount x $total per % 100
+
+$total - product_discount_rate
+
+
+670 

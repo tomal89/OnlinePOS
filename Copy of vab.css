@@ -1,0 +1,148 @@
+<style type="text/css">
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+a {text-decoration: none;}
+
+fieldset { border:1px solid #A0A9C0; }
+
+label {
+  float:left;
+  width:25%;
+  margin-right:0.5em;
+  padding-top:0.2em;
+  text-align:right;
+  color: #666;
+  }
+
+legend {
+  padding: 0.2em 0.5em;
+  border:1px solid green;
+  color:green;
+  font-size:90%;
+  text-align:right;
+  }
+.submit{
+	width:auto;
+	color:white;
+	background-color:#617AAC;
+	outline:none;
+	border:1px solid #006600;
+	font-weight:bold;
+	}
+.submit_s{
+	margin-top:5px;
+	width:auto;
+	color:white;
+	background-color:#617AAC;
+	outline:none;
+	border:1px solid #006600;
+	font-weight:bold;
+	}
+.button:active{
+	background-color:#05266D;
+}
+#submit_cart{
+	margin-top:5px;
+	width:100px;;
+	color:white;
+	background-color:#617AAC;
+	outline:none;
+	border:1px solid #006600;
+	font-weight:bold;
+	}
+.button:active{
+	background-color:#05266D;
+}
+
+.reset
+{
+	width:auto;
+	color:white;
+	background-color:#589d39;
+	outline:none;
+	border:1px solid #006600;
+	font-weight:bold;
+}
+
+.reset:active{
+	background-color:#006600;
+}
+
+
+form input:required, 
+form textarea:required {
+  border:1px solid black;						
+}
+
+form input:valid,
+form textarea:valid {
+  border:1px solid green;			
+}		
+
+form input:focus:invalid,
+form textarea:focus:invalid {
+  border:1px solid blue;							
+}
+
+
+form input:not([type=submit]),
+form textarea {
+background: #ffffff;
+border: 1px solid #999;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+-khtml-border-radius: 3px;
+border-radius: 3px;
+font:  13px Georgia, "Times New Roman", Times, serif;
+outline: none;
+padding: 5px;
+width: 390px;
+}
+#textarea {
+background: #ffffff;
+border: 1px solid #999;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+-khtml-border-radius: 3px;
+border-radius: 3px;
+font:  13px Georgia, "Times New Roman", Times, serif;
+outline: none;
+padding: 5px;
+width: 200px;
+word-wrap: break-word; 
+}
+#textarea2
+{
+background: #ffffff;
+border: 1px solid #999;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+-khtml-border-radius: 3px;
+border-radius: 3px;
+font:  13px Georgia, "Times New Roman", Times, serif;
+outline: none;
+padding: 5px;
+width: 100px;
+word-wrap: break-word; 
+}
+select{ border:1px solid #EEE;
+    width:500px; !important;
+    height:35px !important;
+    padding:5px !important;
+    margin:5px !important;
+    line-height:1 !important;
+}
+#selectme{ border:1px solid #EEE;
+    width:400px; !important;
+    height:35px !important;
+    padding:5px !important;
+    margin:5px !important;
+    line-height:1 !important;
+}
+
+</style>
